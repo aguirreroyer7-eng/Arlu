@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #272716f6;
+}
+ header
+ {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .3px solid white;
+    align-items: center;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+ }
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo a img
+{
+    width: 200px;
+}
+.logo p
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: -45px;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+    align-items: center;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu a img
+{
+    width: 30px;
+    padding-right: 10px;
+}
+.menu .button
+{
+    display: flex;
+    border: none;
+    background-color: #B6C75F;
+    padding: 15px;
+    border-radius: 30px;
+    align-items: center;
+    color: black;
+}
